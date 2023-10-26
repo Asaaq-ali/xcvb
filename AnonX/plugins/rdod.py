@@ -5,7 +5,6 @@ import random
 from AnonX import app
 from pyrogram.types import (InlineKeyboardButton,
                             InlineKeyboardMarkup, Message)
-from strings.filters import command
 from pyrogram import Client
 from config import OWNER_ID, MUSIC_BOT_NAME
 from pyrogram import filters
@@ -60,7 +59,7 @@ txt1 = [
         
 
 
-@app.on_message(command(["بوت"]))
+@app.on_message(filters.command(["بوت"],""))
 
 
 async def cutt(client: Client, message: Message):
