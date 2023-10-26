@@ -20,8 +20,8 @@ from pyrogram.errors import MessageNotModified
 )
 async def cr_source(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/3123f5336cb10b95f6c0d.jpg",
-        caption=f"""** 𝐒𝐎𝐔𝐑𝐂𝐄•𝐂𝐑𝐘𝐒𝐓𝐀𝐋**\nمرحبا بك عزيزي {message.from_user.mention}\nهذا قسم الاوامر الخاص بسورس حياه \nلمعرفة الاوامر اضغط على الأزرار بالأسفل👇\n** 𝐒𝐎𝐔𝐑𝐂𝐄•𝐂𝐑𝐘𝐒𝐓𝐀𝐋**""",
+        photo=f"https://telegra.ph/file/6c741a6bc1e1663ac96fc.jpg",
+        caption=f"""** 𝑺𝒐𝒖𝒓𝒄𝒆 𝒅𝒊𝒏𝒂**\nمرحبا بك عزيزي {message.from_user.mention}\nهذا قسم الاوامر الخاص بسورس حياه \nلمعرفة الاوامر اضغط على الأزرار بالأسفل👇\n** 𝐒𝐎𝐔𝐑𝐂𝐄•𝐂𝐑𝐘𝐒𝐓𝐀𝐋**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -35,7 +35,7 @@ async def cr_source(client: Client, message: Message):
                 ],[
                 
                     InlineKeyboardButton(
-                        "★ 𝐒𝐎𝐔𝐑𝐂𝐄•𝐂𝐑𝐘𝐒𝐓𝐀𝐋⚡", url=f"https://t.me/VVHH9"),
+                        "★ 𝑺𝒐𝒖𝒓𝒄𝒆 𝒅𝒊𝒏𝒂⚡", url=f"https://t.me/VVHH9"),
                 ],
 
             ]
@@ -49,7 +49,7 @@ async def cr_source(client: Client, message: Message):
 async def cr_usage(_, callback_query: CallbackQuery):
     await callback_query.answer()
     await callback_query.message.edit_text(
-        text="""**⌯ 𝐒𝐎𝐔𝐑𝐂𝐄•𝐂𝐑𝐘𝐒𝐓𝐀𝐋**
+        text="""**⌯ 𝑺𝒐𝒖𝒓𝒄𝒆 𝒅𝒊𝒏𝒂**
 ★¦ اهلا بك عزيزي في قسم اوامر التشغيل في الجروبات
 ★¦ تشغيل + اسم الاغنيه
 ★¦ فديو + اسم الاغنيه
@@ -74,7 +74,7 @@ async def cr_usage(_, callback_query: CallbackQuery):
 ★¦ vplay + اسم الاغنيه
 ★¦ play + اسم الاغنيه
 
-**⌯ 𝐒𝐎𝐔𝐑𝐂𝐄•𝐂𝐑𝐘𝐒𝐓𝐀𝐋**""",
+**⌯ 𝑺𝒐𝒖𝒓𝒄𝒆 𝒅𝒊𝒏𝒂**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -94,7 +94,7 @@ async def cr_usage(_, callback_query: CallbackQuery):
 async def cr_usage(_, callback_query: CallbackQuery):
     await callback_query.answer()
     await callback_query.message.edit_text(
-        text="""** 𝐒𝐎𝐔𝐑𝐂𝐄•𝐂𝐑𝐘𝐒𝐓𝐀𝐋**
+        text="""** 𝑺𝒐𝒖𝒓𝒄𝒆 𝒅𝒊𝒏𝒂**
 ★¦ اهلا بك عزيزي في قسم اوامر التشغيل في القنوات
 ★¦ شغل + اسم الاغنيه
 ★¦ قناه + اسم الاغنيه
@@ -103,7 +103,7 @@ async def cr_usage(_, callback_query: CallbackQuery):
 ★¦ اغاني + اسم الاغنيه
 ★¦ . + اسم الاغنيه
 ★¦ / + اسم الاغنيه
-** 𝐒𝐎𝐔𝐑𝐂𝐄•𝐂𝐑𝐘𝐒𝐓𝐀𝐋**""",
+** 𝑺𝒐𝒖𝒓𝒄𝒆 𝒅𝒊𝒏𝒂**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -124,20 +124,11 @@ async def cr_usage(_, callback_query: CallbackQuery):
 async def cr_usage(_, callback_query: CallbackQuery):
     await callback_query.answer()
     await callback_query.message.edit_text(
-        text="""** 𝐒𝐎𝐔𝐑𝐂𝐄•𝐂𝐑𝐘𝐒𝐓𝐀𝐋**
+        text="""** 𝑺𝒐𝒖𝒓𝒄𝒆 𝒅𝒊𝒏𝒂**
 ★¦ اهلا بك عزيزي في قسم اوامر تشغيل الادمن
-★¦ رفع ثانوي
-★¦ تنزيل ثانوي
-★¦ قائمة الثانويين
-★¦ رفع ادمن
-★¦ تنزيل ادمن
-★¦ قائمة الادمن
 ★¦ حظر
 ★¦ الغاء الحظر
 ★¦ المحظورين
-★¦ حظر عام
-★¦ الغاء الحظر العام
-★¦ المحظورين عام
 ★¦ اونلاين
 ★¦ اذاعه
 ★¦ تحديث
@@ -151,7 +142,7 @@ async def cr_usage(_, callback_query: CallbackQuery):
 ★¦ تخطي
 ★¦ @all
 ★¦ all stop
-★¦ يوتيوب / تنزيل
+★¦ بحث / تنزيل
 ★¦ playing
 ★¦ القائمه
 ★¦ حذف القائمه
@@ -162,7 +153,7 @@ async def cr_usage(_, callback_query: CallbackQuery):
 ★¦ الاعدادت
 ★¦ بينج
 
-** 𝐒𝐎𝐔𝐑𝐂𝐄•𝐂𝐑𝐘𝐒𝐓𝐀𝐋**""",
+** 𝑺𝒐𝒖𝒓𝒄𝒆 𝒅𝒊𝒏𝒂**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -183,8 +174,8 @@ async def cr_usage(_, callback_query: CallbackQuery):
 @app.on_callback_query(filters.regex("back"))
 async def cr_back(_, callback_query: CallbackQuery):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/3123f5336cb10b95f6c0d.jpg",
-        caption=f"""** 𝐒𝐎𝐔𝐑𝐂𝐄•𝐂𝐑𝐘𝐒𝐓𝐀𝐋**\nمرحبا بك عزيزي {message.from_user.mention}\nهذا قسم الاوامر الخاص بسورس حياه \nلمعرفة الاوامر اضغط على الأزرار بالأسفل👇\n** 𝐒𝐎𝐔𝐑𝐂𝐄•𝐂𝐑𝐘𝐒𝐓𝐀𝐋**""",
+        photo=f"https://telegra.ph/file/6c741a6bc1e1663ac96fc.jpg",
+        caption=f"""** 𝑺𝒐𝒖𝒓𝒄𝒆 𝒅𝒊𝒏𝒂**\nمرحبا بك عزيزي {message.from_user.mention}\nهذا قسم الاوامر الخاص بسورس حياه \nلمعرفة الاوامر اضغط على الأزرار بالأسفل👇\n** 𝐒𝐎𝐔𝐑𝐂𝐄•𝐂𝐑𝐘𝐒𝐓𝐀𝐋**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -198,7 +189,7 @@ async def cr_back(_, callback_query: CallbackQuery):
                 ],[
                 
                     InlineKeyboardButton(
-                        "★ 𝐒𝐎𝐔𝐑𝐂𝐄•𝐂𝐑𝐘𝐒𝐓𝐀𝐋⚡", url=f"https://t.me/VVHH91"),
+                        "★ 𝑺𝒐𝒖𝒓𝒄𝒆 𝒅𝒊𝒏𝒂⚡", url=f"https://t.me/VVHH91"),
                 ],
 
             ]
