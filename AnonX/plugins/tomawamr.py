@@ -16,12 +16,12 @@ from pyrogram.errors import MessageNotModified
 
 
 @app.on_message(
-    command("الاوامر")
+    command("اوامر")
 )
 async def cr_source(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/6c741a6bc1e1663ac96fc.jpg",
-        caption=f"""** 𝑺𝒐𝒖𝒓𝒄𝒆 𝒅𝒊𝒏𝒂**\nمرحبا بك عزيزي {message.from_user.mention}\nهذا قسم الاوامر الخاص بسورس حياه \nلمعرفة الاوامر اضغط على الأزرار بالأسفل👇\n** 𝐒𝐎𝐔𝐑𝐂𝐄•𝐂𝐑𝐘𝐒𝐓𝐀𝐋**""",
+        caption=f"""** 𝑺𝒐𝒖𝒓𝒄𝒆 𝒅𝒊𝒏𝒂**\nمرحبا بك عزيزي {message.from_user.mention}\nهذا قسم الاوامر الخاص بسورس دينا \nلمعرفة الاوامر اضغط على الأزرار بالأسفل👇\n** 𝑺𝒐𝒖𝒓𝒄𝒆 𝒅𝒊𝒏𝒂**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -35,7 +35,7 @@ async def cr_source(client: Client, message: Message):
                 ],[
                 
                     InlineKeyboardButton(
-                        "★ 𝑺𝒐𝒖𝒓𝒄𝒆 𝒅𝒊𝒏𝒂⚡", url=f"https://t.me/VVHH9"),
+                        "★ 𝑺𝒐𝒖𝒓𝒄𝒆 𝒅𝒊𝒏𝒂⚡", url=f"https://t.me/Mlze1bot"),
                 ],
 
             ]
@@ -83,7 +83,7 @@ async def cr_usage(_, callback_query: CallbackQuery):
                     
                 ],[
                     InlineKeyboardButton(
-                        "الرئيسية", callback_data="back"), 
+                        "الرئيسية", callback_data="vtuo"), 
                     
                 ]
             ]
@@ -113,7 +113,7 @@ async def cr_usage(_, callback_query: CallbackQuery):
                         "العودة", callback_data="gr"), 
                 ],[
                     InlineKeyboardButton(
-                        "الرئيسية", callback_data="back"), 
+                        "الرئيسية", callback_data="vtuo"), 
                     
                 ]
             ]
@@ -163,7 +163,7 @@ async def cr_usage(_, callback_query: CallbackQuery):
                         "العودة", callback_data="ch"), 
                 ],[
                     InlineKeyboardButton(
-                        "الرئيسية", callback_data="back"), 
+                        "الرئيسية", callback_data="vtuo"), 
                     
                 ]
             ]
@@ -171,7 +171,7 @@ async def cr_usage(_, callback_query: CallbackQuery):
     )
 
     
-@app.on_callback_query(filters.regex("back"))
+@app.on_callback_query(filters.regex("vtuo"))
 async def cr_back(_, callback_query: CallbackQuery):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/6c741a6bc1e1663ac96fc.jpg",
@@ -189,7 +189,7 @@ async def cr_back(_, callback_query: CallbackQuery):
                 ],[
                 
                     InlineKeyboardButton(
-                        "★ 𝑺𝒐𝒖𝒓𝒄𝒆 𝒅𝒊𝒏𝒂⚡", url=f"https://t.me/VVHH91"),
+                        "★ 𝑺𝒐𝒖𝒓𝒄𝒆 𝒅𝒊𝒏𝒂⚡", url=f"https://t.me/Mlze1bot"),
                 ],
 
             ]
