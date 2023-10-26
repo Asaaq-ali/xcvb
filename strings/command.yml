@@ -7,7 +7,7 @@
 # Bot Commands
 PING_COMMAND : ["ping", "بينج"]
 START_COMMAND : ["start", "/start", "تفعيل"]
-HELP_COMMAND : ["help", "مساعده"]
+HELP_COMMAND : ["help", "ميوزك"]
 SETTINGS_COMMAND : ["settings", "setting", "اعدادات", "الاعدادت", "/اعدادات", "/الاعدادات", "/setting"]
 RELOAD_COMMAND : ["admincache", "reload", "ريلود"]
 GSTATS_COMMAND : ["gstats","الاحصائيات","احصائيات"]
@@ -15,7 +15,7 @@ STATS_COMMAND : ["stats"]
 LANGUAGE_COMMAND : ["lang", "language", "langs", "لغه", "اللغه"]
 
 # Play Commands
-PLAY_COMMAND : ["play", "vplay", "cplay", "/cvplay", "playforce", "vplayforce", "cplayforce", "cvplayforce", "تشغيل" , "فيديو", "#تشغيل", "/play", "/vplay", "cplay", "cvplay", "/تشغيل", "/ق تشغيل", "/ق شغل", "/فيديو", "تشغيل/", "{NAME_BOT}", "فيديو", "#فديو", "فديو","سورة","سوره"]
+PLAY_COMMAND : ["play", "vplay", "cplay", "/cvplay", "playforce", "vplayforce", "دينا شغل", "شغل", "تشغيل" , "فيديو", "#تشغيل", "/play", "/vplay", "cplay", "cvplay", "/تشغيل", "/ق تشغيل", "/ق شغل", "/فيديو", "تشغيل/", "{NAME_BOT}", "فيديو", "#فديو", "فديو","سورة","سوره"]
 PLAY_COMMAND_chh : ["اغاني", "ق" , "شغل", "مانو", "قناه","/", ".","فيديو"]
 STOP_COMMAND_chh : ["ايقاف"]
 PLAYMODE_COMMAND : ["playmode", "/وضع شغل", "وضع شغل", "/playmode"]
@@ -29,7 +29,7 @@ DELETEPLAYLIST_COMMAND : ["deleteplaylist", "حذف القائمه"]
 
 # Tools
 QUEUE_COMMAND : ["queue","cqueue", "player", "cplayer", "playing", "cplaying"]
-SONG_COMMAND : ["song", "تنزيل", "يوتيوب"]
+SONG_COMMAND : ["song", "تنزيل", "بحث"]
 LYRICS_COMMAND : ["lyrics", "كلمات"]
 TAG_COMMAND : ["@all"]
 TAG_COMMAND_STOP : ["all stop"]
