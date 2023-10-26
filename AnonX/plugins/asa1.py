@@ -5,28 +5,28 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from AnonX import app, Telegram
 import random
 @app.on_message(
-    command(["صورص","سورس","السورس","سورس كرستال", "crs"])
+    command(["صورص","السورسس","السورس","سورس", "crs"])
 )
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/3123f5336cb10b95f6c0d.jpg",
         caption=f"""
- [𝐒𝐎𝐔𝐑𝐂𝐄•𝐂𝐑𝐘𝐒𝐓𝐀𝐋](https://t.me/VVHH9)
+ [𝑺𝒐𝒖𝒓𝒄𝒆 𝒅𝒊𝒏𝒂](https://t.me/VVHH9)
  —————————————
- [𝐂𝐑𝐘𝐒𝐓𝐀𝐋](https://t.me/N_1_F)
+ [𝗔𝗦𝗔𝗔𝗤](https://t.me/A_S_A_S_K)
  
- [𓏺𝙂𝙍𝙊𝙐𝙋 𝙃𝞝𝙇𝙋](https://t.me/VVHH9)
+ [𓏺𝙂𝙍𝙊𝙐𝙋 𝙃𝞝𝙇𝙋](https://t.me/hasheyy)
   
- [⍟𓏺𝙒𝞝𝙇𝘾𝙊𝙈𝙀 𝙏𝙊 𝐒𝐎𝐔𝐑𝐂𝐄•𝐂𝐑𝐘𝐒𝐓𝐀𝐋](https://t.me/VVHH9)
+ [𝙒𝞝𝙇𝘾𝙊𝙈𝙀 𝙏𝙊 𝑺𝒐𝒖𝒓𝒄𝒆 𝒅𝒊𝒏𝒂](https://t.me/Mlze1bot)
 """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "𝐂𝐑𝐘𝐒𝐓𝐀𝐋", url=f"https://t.me/N_1_F"), 
+                        "𝗔𝗦𝗔𝗔𝗤", url=f"t.me/A_S_A_S_K"), 
                 ],[
                     InlineKeyboardButton(
-                        "𝐒𝐎𝐔𝐑𝐂𝐄•𝐂𝐑𝐘𝐒𝐓𝐀𝐋", url=f"t.me/VVHH9"),
+                        "𝑺𝒐𝒖𝒓𝒄𝒆 𝒅𝒊𝒏𝒂", url=f"t.me/Mlze1bot"),
                 ],
 
             ]
