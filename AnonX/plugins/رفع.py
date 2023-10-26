@@ -11,7 +11,7 @@ from pyrogram.enums import ParseMode, ChatMemberStatus
 lokrf = []
 
 @app.on_message(
-     command(["قفل الرفع","تعطيل الرفع"])
+     filters.command(["قفل الرفع","تعطيل الرفع"],"")
      & filters.group
 
    
