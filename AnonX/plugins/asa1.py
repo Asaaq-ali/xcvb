@@ -1,15 +1,15 @@
 import asyncio
 from pyrogram import Client, filters
-from strings.filters import command
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from AnonX import app, Telegram
 import random
+
 @app.on_message(
-    command(["صورص","السورسس","السورس","سورس", "crs"])
+    filters.command(["صورص","السورسس","السورس","سورس", "crs"],"")
 )
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/3123f5336cb10b95f6c0d.jpg",
+        photo=f"https://telegra.ph/file/6c741a6bc1e1663ac96fc.jpg",
         caption=f"""
  [𝑺𝒐𝒖𝒓𝒄𝒆 𝒅𝒊𝒏𝒂](https://t.me/VVHH9)
  —————————————
@@ -35,7 +35,7 @@ async def huhh(client: Client, message: Message):
 
     )
 
-@app.on_message(command([f"غنيلي", "غني", "غ", "{BOT_USERNAME} غنيلي"]))
+@app.on_message(filters.command([f"غنيلي", "غني", "غ", "{BOT_USERNAME} غنيلي"],""))
 async def ihd(client: Client, message: Message):
     rl = random.randint(8,20)
     url = f"https://t.me/iV_P_Nl/{rl}"
@@ -50,7 +50,7 @@ async def ihd(client: Client, message: Message):
         )
     )
     
-@app.on_message(command(["صورة","صور"]))
+@app.on_message(filters.command(["صورة","صور"]),"")
 async def ihd(client: Client, message: Message):
     rs = random.randint(39,148)
     url = f"https://t.me/GTTUTY/{rs}"
