@@ -837,5 +837,5 @@ async def zahrafa(c: Client, m: Message):
                  + "`\n\n` " + zhrf9 + random.choice(Emoje) \
                  + "`\n\n` " + zhrf5 + random.choice(Emoje) 
           
-    Text_Zhrfa = Text_Zhrfa + f"`\n\n 𝙎𝙊𝙐𝙍𝘾𝞝 𝙃𝘼𝙔𝘼  تمت الزخرفه من قبل \n│ \n🐉"
+    Text_Zhrfa = Text_Zhrfa + f"`\n\n 𝙎𝙊𝙐𝙍𝘾𝞝 𝒅𝒊𝒏𝒂  تمت الزخرفه من قبل \n│ \n🐉"
    
