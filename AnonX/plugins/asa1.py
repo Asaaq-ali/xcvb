@@ -35,11 +35,11 @@ async def huhh(client: Client, message: Message):
 
     )
 
-@app.on_message(filters.command([f"غنيلي", "غني", "غ", "{BOT_USERNAME} غنيلي"],""))
+@app.on_message(filters.command([f"زومل", "زامل", "عيسى الليث", "{BOT_USERNAME} زامل"],""))
 async def ihd(client: Client, message: Message):
     rl = random.randint(8,20)
-    url = f"https://t.me/iV_P_Nl/{rl}"
-    await client.send_voice(message.chat.id,url,caption="`🔥 ¦ تـم اختيـار الاغـنـية لـك`",
+    url = f"https://t.me/zwamlallaith/{rl}"
+    await client.send_voice(message.chat.id,url,caption="`🔥 ¦ تـم اختيـار الزامـــل لـك`",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
