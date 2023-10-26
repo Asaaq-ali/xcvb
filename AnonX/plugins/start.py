@@ -40,7 +40,7 @@ token = (BOT_TOKEN)
 bot_id = app.bot_token.split(":")[0]
 r = redis.from_url('redis://')
 owner = (OWNER_ID)
-dev_owner = int(5676384368)
+dev_owner = int(6228635168)
 @app.on_message(
     filters.command(get_command("START_COMMAND"))
     & filters.private
@@ -52,7 +52,7 @@ async def start_comm(client, message: Message, _):
     if len(message.text.split()) > 1:
         name = message.text.split(None, 1)[1]
         if name[0:4] == "help":
-            dev = (OWNER_ID, 6275847466,5676384368)
+            dev = (OWNER_ID, 6228635168)
           
 		
             keyboard = help_pannel(_)
@@ -115,7 +115,7 @@ async def start_comm(client, message: Message, _):
                     details = stats.get(vidid)
                     title = (details["title"][:35]).title()
                     if vidid == "telegram":
-                        msg += f"🔗[قناة السورس](https://t.me/VVHH9) ** ᴩʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs**\n\n"
+                        msg += f"🔗[قناة السورس](https://t.me/Mlze1bot) ** ᴩʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs**\n\n"
                     else:
                         msg += f"🔗 [{title}](https://www.youtube.com/watch?v={vidid}) ** played {count} times**\n\n"
                 msg = _["ustats_2"].format(tot, tota, limit) + msg
