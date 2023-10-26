@@ -16,7 +16,7 @@ from pyrogram.errors import MessageNotModified
 
 
 @app.on_message(
-    filters.command("help")
+    filters.command("hgshsjshelp")
     
 )
 async def cr_source(client: Client, message: Message):
