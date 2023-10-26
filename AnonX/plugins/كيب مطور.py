@@ -786,7 +786,7 @@ async def AddKey(c:Client,m:Message):
 	user = m.from_user.id
 	mainSudoVII = open(f"maindevsVII{bot_id}.json","r").read()
 	if str(user) in mainSudoVII or (user) in owner or int(user) == dev_owner:
-		ask = await m.reply('**معرف القناه بدون @**')
+		ask = await m.reply(' ')
 		if ask.text == "الغاء":
 			await ask.request.delete()
 			await ask.delete()
@@ -826,7 +826,7 @@ async def AddChannel(c:Client,m:Message):
 	user = m.from_user.id
 	mainSudoVII = open(f"maindevsVII{bot_id}.json","r").read()
 	if str(user) in mainSudoVII or (user) in owner or int(user) == dev_owner:
-		ask = await m.reply('**معرف قناه المطور بدون @**')
+		ask = await m.reply('')
 		if ask.text == "الغاء":
 			await ask.request.delete()
 			await ask.delete()
@@ -938,7 +938,7 @@ async def DelOwner(c:Client,m:Message):
 	user = m.from_user.id
 	if (user) in owner or int(user) == dev_owner:
 		
-		ask = await m.reply(chat,"**ارسل ايدي المالك**")
+		ask = await m.reply(chat," ")
 		inputText = ask.text
 		if inputText =="الغاء":
 			await ask.request.delete()
@@ -1009,7 +1009,7 @@ async def AddMain(c:Client,m:Message):
 	mainSudoVII = open(f"maindevsVII{bot_id}.json","r").read()
 	if str(user) in mainSudo or str(user) in mainSudoVII or (user) in owner:
 		
-		ask = await m.reply(chat,"**ارسل ايدي المطور الاساسي ")
+		ask = await m.reply(chat," ")
 		if ask.text == "الغاء":
 			await ask.request.delete()
 			await m.delete()
